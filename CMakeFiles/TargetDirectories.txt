@@ -1,0 +1,12 @@
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/helloworld_cli.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/helloworld.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/test_version.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/package.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/package_source.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/test.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/list_install_components.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/install.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/install/local.dir
+C:/Users/User/Documents/Korochtutproga3sem/Proga3SemakEPTA/CMakeFiles/install/strip.dir
