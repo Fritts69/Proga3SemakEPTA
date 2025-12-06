@@ -1,13 +1,16 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
-set(PROJECT_VERSION 0.0.${PATCH_VERSION})
+if (NOT DEFINED PATCH_VERSION)
+    set(PATCH_VERSION "1")
+endif()
+
+set(PROJECT_VERSION "0.0.${PATCH_VERSION}")
 
 project(helloworld VERSION ${PROJECT_VERSION})
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
-configure_file(version.h.in version.h)
+configure_file(version.h.in ${CMAKE_BINARY_DIR}/version.h @ONLY)
 
 add_executable(helloworld_cli main.cpp)
 add_library(helloworld lib.cpp)
