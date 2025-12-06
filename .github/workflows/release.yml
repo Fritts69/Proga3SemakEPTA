@@ -10,7 +10,7 @@ jobs:
   build-linux:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true
       
@@ -22,7 +22,7 @@ jobs:
       - run: cmake --build . --target package
       
       - name: Upload Linux Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: helloworld-linux
           path: helloworld-0.0.${{ github.run_number }}-Linux.deb
@@ -30,7 +30,7 @@ jobs:
   build-windows:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true
       
@@ -49,7 +49,7 @@ jobs:
           7z a helloworld-0.0.${{ github.run_number }}-Windows.zip helloworld-${{ github.run_number }}/
       
       - name: Upload Windows Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: helloworld-windows
           path: helloworld-0.0.${{ github.run_number }}-Windows.zip
@@ -61,12 +61,12 @@ jobs:
       contents: write
     steps:
       - name: Download Linux Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: helloworld-linux
       
       - name: Download Windows Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: helloworld-windows
       
